@@ -1,0 +1,47 @@
+# Git files
+.git
+.gitignore
+
+# Node modules - Installed within Dockerfile
+node_modules
+
+# Build output - Created within Dockerfile
+dist
+
+# NestJS cache
+.nest
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment files - Handled by env_file in docker-compose or runtime env vars
+.env
+.env.*
+!.env.example # Optionally include example env file
+
+# Test reports
+coverage
+junit.xml
+
+# IDE/Editor directories
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Migration backup files (if db-migrate creates them)
+*.sql.bak
+
+

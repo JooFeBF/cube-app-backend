@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS solutions;
+DROP TABLE IF EXISTS scrambles;
+DROP TABLE IF EXISTS registrations;
+DROP TABLE IF EXISTS tournament_admins;
+DROP TABLE IF EXISTS tournaments;
+DROP TABLE IF EXISTS modalities;
+DROP TABLE IF EXISTS users;
